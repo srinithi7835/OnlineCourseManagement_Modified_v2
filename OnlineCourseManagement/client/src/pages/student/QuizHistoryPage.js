@@ -1,0 +1,2 @@
+import React from "react";
+export default function QuizHistoryPage(){const rows=[["Web Basics Check","90%"],["CSS Layout Quiz","80%"],["JavaScript Intro","60%"]];return <div><h2 className="fw-bold">Quiz History</h2><div className="row g-3 mt-2">{rows.map(x=><div className="col-md-4" key={x[0]}><div className="card border-0 shadow-sm p-4"><i className="bi bi-ui-checks text-primary fs-3"></i><h5 className="fw-bold mt-3">{x[0]}</h5><h3>{x[1]}</h3><span className="text-success">Passed</span></div></div>)}</div></div>}

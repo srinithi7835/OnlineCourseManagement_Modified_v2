@@ -1,0 +1,1 @@
+import React from "react";export default function LoadingSpinner(){return <div className="text-center py-5"><div className="spinner-border text-primary" role="status"/><p className="text-muted mt-2">Loading courses...</p></div>}

@@ -1,0 +1,2 @@
+import React from "react";
+export default function StudentCertificates(){return <div><h2 className="fw-bold">Certificates</h2><p className="text-muted">Certificates earned after completing courses.</p><div className="certificate-card mt-4"><div className="text-center"><i className="bi bi-award-fill fs-1 text-warning"></i><h3 className="fw-bold">Certificate of Completion</h3><p className="text-muted">Modern Web Development</p><hr/><p className="mb-1">Certificate ID</p><strong>LS-2026-1001</strong></div></div></div>}
